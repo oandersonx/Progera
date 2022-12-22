@@ -1,0 +1,56 @@
+.register-parent{
+    height: 100%;
+    padding: 0 2%;
+    background-color: rgb(27, 26, 26);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 750px;
+}
+
+.register{
+    width: 100%;
+    max-width: 700px;
+    padding: 40px 30px 80px 30px;
+    background-color: white;
+    color: black;
+}
+
+.register-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-title img{
+    width: 100px;
+    height: 100px;
+}
+
+.register .form-group label{
+    font-size: 14px;
+}
+
+.register .form-group input{
+    font-size: 14px;
+}
+
+.register button{
+    margin-top: 40px;
+    background: linear-gradient(red, black);
+    color: white;
+    width: 100%;
+    display: block;
+    border: none;
+}
+
+.register button:hover{
+    color: white;
+    border: none;
+    transform: scale(1.05);
+    transition: .2s;
+    font-size: 14px;
+}

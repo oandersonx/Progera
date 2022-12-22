@@ -1,0 +1,113 @@
+main{
+    display: block;
+    height: 100%;
+    background-color: black;
+    color: white;
+    width: calc(100% - 300px);
+}
+
+main .main-content{
+    padding: 30px;
+    width: 100%;
+    height: calc(100% - 90px);
+    overflow-y: auto;
+}
+
+.main-content::-webkit-scrollbar-track
+{   
+    border: 1px solid black;
+	background-color: rgb(216, 7, 7);
+}
+
+.main-content::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: #ccc;
+}
+
+.main-content:-webkit-scrollbar-thumb
+{
+	background-color: #ccc;
+}
+
+.main-content .painel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+.painel-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.painel-50{
+    width: 48%;
+}
+
+.painel-row button{
+    color: white;
+    height: 180px;
+    background: linear-gradient(rgb(179, 2, 2), black);
+    font-size: 22px;
+}
+
+.painel-row button:hover{
+    transform: scale(1.10);
+    transition: .2s;
+}
+
+div#ajax-content{
+    width: 100%;
+    margin-top: 20px;
+    background: white;
+    box-shadow:  0 0 2rem rgba(0, 0, 0, 0.1);
+    color:black;
+}
+
+div#ajax-content button{
+    background: linear-gradient(rgb(179, 2, 2), black);
+}
+
+div#ajax-content button:hover{
+    transform: scale(1.10);
+    transition: .2s;
+}
+
+div#ajax-content label{
+    font-size: 14px;
+}
+
+div#ajax-content table svg{
+    cursor: pointer;
+}
+
+.dynamic-content {
+    padding: 20px;
+}
+
+div.main-content-title{
+    padding: 5px 0;
+}
+
+div.main-content-title h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.container text-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+}
